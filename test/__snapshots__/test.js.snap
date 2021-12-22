@@ -1,0 +1,923 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Html Webpack Plugin Check Block Helpers: Basic Block Variation 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head><div class=\\"entry\\">
+	<h1>First Post</h1>
+	<div class=\\"body\\">
+		<div class=\\"mybold\\">BODY</div>
+	</div>
+</div>
+"
+`;
+
+exports[`Html Webpack Plugin Check Block Helpers: Basic Blocks 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head><div class=\\"entry\\">
+	<h1>First Post</h1>
+	<div class=\\"body\\">
+		BODY
+	</div>
+</div>
+
+NOOP
+"
+`;
+
+exports[`Html Webpack Plugin Check Block Helpers: Block Parameters 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head>	Id: 0 Name: Name1
+	Id: 1 Name: Name2
+	Id: 2 Name: Name3
+
+		User Id: 0 Book Id: 0
+		User Id: 0 Book Id: 1
+		User Id: 0 Book Id: 2
+		User Id: 1 Book Id: 0
+		User Id: 1 Book Id: 1
+		User Id: 1 Book Id: 2
+		User Id: 2 Book Id: 0
+		User Id: 2 Book Id: 1
+		User Id: 2 Book Id: 2
+"
+`;
+
+exports[`Html Webpack Plugin Check Block Helpers: Conditionals 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head>	<img src=\\"star.gif\\" alt=\\"Active\\">
+
+	<img src=\\"cry.gif\\" alt=\\"Inactive\\">
+
+	<img src=\\"cry.gif\\" alt=\\"Inactive\\">
+"
+`;
+
+exports[`Html Webpack Plugin Check Block Helpers: Hash Arguments 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head><ul class=\\"top\\" id=\\"nav-bar\\"><li>	<a href=\\"foo\\">bar</a>
+</li>
+<li>	<a href=\\"bar\\"></a>
+</li></ul>
+<ul><li>	0. Title1
+</li><li>	1. Title2
+</li><li>	2. Title3
+</li></ul>"
+`;
+
+exports[`Html Webpack Plugin Check Block Helpers: Raw Blocks 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head>{{BAR}}
+
+{{bar}}
+"
+`;
+
+exports[`Html Webpack Plugin Check Block Helpers: Simple Iterators 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head><div class=\\"entry\\">
+	<h1>First Post</h1>
+		<div class=\\"intro\\">Before the jump</div>
+		<div class=\\"body\\">After the jump</div>
+</div>
+
+<div class=\\"comments\\">
+		<div class=\\"comment\\">
+			<h2>Before the jump</h2>
+			After the jump
+		</div>
+		<div class=\\"comment\\">
+			<h2>Before the jump</h2>
+			After the jump
+		</div>
+</div>
+
+<ul><li>	<a href=\\"https://www.yehudakatz.com\\">Katz Got Your Tongue</a>
+</li><li>	<a href=\\"https://www.sproutcore.com/block\\">SproutCore Blog</a>
+</li></ul>"
+`;
+
+exports[`Html Webpack Plugin Check Block Helpers: The with helper 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head><div class=\\"entry\\">
+	<h1>First Post</h1>
+		<div class=\\"intro\\">Before the jump</div>
+		<div class=\\"body\\">After the jump</div>
+</div>
+"
+`;
+
+exports[`Html Webpack Plugin Check Built-in Helpers: each 1`] = `
+"<!doctype html>
+<html lang=\\"en\\">
+<head>
+	<meta charset=\\"UTF-8\\">
+	<meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1\\">
+	<title>03Each</title>
+<script defer src=\\"../main.js\\"></script></head>
+<body>
+<ul class=\\"people_list\\">
+		<li>Yehuda Katz</li>
+		<li>Alan Johnson</li>
+		<li>Charles Jolley</li>
+</ul>
+
+	<p class=\\"empty\\">No content</p>
+
+ 0: item 1  1: item 2  2: item 3 
+
+ key1: value 1  key2: value 2 
+</body>
+</html>"
+`;
+
+exports[`Html Webpack Plugin Check Built-in Helpers: if 1`] = `
+"<!doctype html>
+<html lang=\\"en\\">
+<head>
+	<meta charset=\\"UTF-8\\">
+	<meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1\\">
+	<title>01If</title>
+<script defer src=\\"../main.js\\"></script></head>
+<body>
+<div class=\\"entry\\">
+		<h1>Yehuda Katz</h1>
+</div>
+
+<div class=\\"entry\\">
+		<h1>Unknown Author</h1>
+</div>
+
+true
+false
+</body>
+</html>"
+`;
+
+exports[`Html Webpack Plugin Check Built-in Helpers: lookup 1`] = `
+"<!doctype html>
+<html lang=\\"en\\">
+<head>
+	<meta charset=\\"UTF-8\\">
+	<meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1\\">
+	<title>05Lookup</title>
+<script defer src=\\"../main.js\\"></script></head>
+<body>
+	Yehuda Katz lives in 
+	Alan Johnson lives in 
+	Charles Jolley lives in 
+
+	Nils lives in 	Nils lives in </body>
+</html>"
+`;
+
+exports[`Html Webpack Plugin Check Built-in Helpers: unless 1`] = `
+"<!doctype html>
+<html lang=\\"en\\">
+<head>
+	<meta charset=\\"UTF-8\\">
+	<meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1\\">
+	<title>02Unless</title>
+<script defer src=\\"../main.js\\"></script></head>
+<body>
+<div class=\\"entry\\">
+		<h3 class=\\"warning\\">WARNING: This entry does not have a license!</h3>
+</div>
+</body>
+</html>"
+`;
+
+exports[`Html Webpack Plugin Check Built-in Helpers: with 1`] = `
+"<!doctype html>
+<html lang=\\"en\\">
+<head>
+	<meta charset=\\"UTF-8\\">
+	<meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1\\">
+	<title>04With</title>
+<script defer src=\\"../main.js\\"></script></head>
+<body>
+	Yehuda Katz
+
+		San Francisco: 37.73, -122.44
+
+	No city found
+</body>
+</html>"
+`;
+
+exports[`Html Webpack Plugin Check Expressions: Basic Usage 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head><p>Yehuda Katz</p>
+"
+`;
+
+exports[`Html Webpack Plugin Check Expressions: Changing the context 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head>	Hello Nils
+	Hello Yehuda
+"
+`;
+
+exports[`Html Webpack Plugin Check Expressions: Disambiguating helpers calls and property lookup 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head>helper: Nils
+data: Yehuda or Yehuda or Yehuda
+"
+`;
+
+exports[`Html Webpack Plugin Check Expressions: Escaping Handlebars expressions 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head>{{escaped}}
+"
+`;
+
+exports[`Html Webpack Plugin Check Expressions: HTML-escaping 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head>raw: & < > \\" ' \` =
+html-escaped: &amp; &lt; &gt; &quot; &#x27; &#x60; &#x3D;
+"
+`;
+
+exports[`Html Webpack Plugin Check Expressions: Helpers 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head>Yehuda KATZ
+"
+`;
+
+exports[`Html Webpack Plugin Check Expressions: Helpers with Hash arguments 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head><a class=\\"person\\" href=\\"https://yehudakatz.com/\\">See Website</a>
+"
+`;
+
+exports[`Html Webpack Plugin Check Expressions: Helpers with Multiple Parameters 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head><a href='https://yehudakatz.com/'>See Website</a>
+
+<a href='https://yehudakatz.com/'>See Website</a>
+"
+`;
+
+exports[`Html Webpack Plugin Check Expressions: Literal arguments 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head>** 10% Search 
+****************** 90% Upload stalled
+******************** 100% Finish 
+"
+`;
+
+exports[`Html Webpack Plugin Check Expressions: Literal segments 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head>correct: array.[0].item: item1
+
+correct: array.[0].[item-class]: class1
+
+correct: ./[true]: yes
+"
+`;
+
+exports[`Html Webpack Plugin Check Expressions: Path expressions 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head>Yehuda Katz
+
+Yehuda Katz
+"
+`;
+
+exports[`Html Webpack Plugin Check Expressions: Prevent HTML-escaping of helper return values 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head><b>Isn&#x27;t this great?</b>
+"
+`;
+
+exports[`Html Webpack Plugin Check Expressions: Subexpressions 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head>abc def
+"
+`;
+
+exports[`Html Webpack Plugin Check Expressions: Whitespace Control 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head><a href=\\"foo\\">bar</a><a href=\\"bar\\">Empty</a>
+	<a href=\\"foo\\">
+			bar
+	</a>	<a href=\\"bar\\">
+			Empty
+	</a>"
+`;
+
+exports[`Html Webpack Plugin Check Introduction: Block Helpers 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head><ul>
+<li>Yehuda Katz</li>
+<li>Carl Lerche</li>
+<li>Alan Johnson</li>
+</ul>
+"
+`;
+
+exports[`Html Webpack Plugin Check Introduction: Custom Helpers 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head>Yehuda KATZ
+
+	Nils Knappmeier
+	Yehuda Katz
+"
+`;
+
+exports[`Html Webpack Plugin Check Introduction: Evaluation context 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head>	Yehuda Katz
+
+<ul class=\\"people_list\\">
+		<li>Yehuda Katz</li>
+		<li>Alan Johnson</li>
+		<li>Charles Jolley</li>
+</ul>
+"
+`;
+
+exports[`Html Webpack Plugin Check Introduction: HTML Escaping 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head>raw: & < > \\" ' \` =
+html-escaped: &amp; &lt; &gt; &quot; &#x27; &#x60; &#x3D;
+
+<b>Isn&#x27;t this great?</b>
+"
+`;
+
+exports[`Html Webpack Plugin Check Introduction: Nested input objects 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head>Yehuda Katz
+"
+`;
+
+exports[`Html Webpack Plugin Check Introduction: Partials 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head>	Nils is 20 years old.
+	Teddy is 10 years old.
+	Nelson is 40 years old.
+"
+`;
+
+exports[`Html Webpack Plugin Check Introduction: Simple Expression 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head><p>Yehuda Katz</p>
+"
+`;
+
+exports[`Html Webpack Plugin Check Introduction: Template comments 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head><!-- This comment will show up as HTML-comment -->
+"
+`;
+
+exports[`Html Webpack Plugin Check Partials: Basic Partials 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head>Hello
+"
+`;
+
+exports[`Html Webpack Plugin Check Partials: Dynamic Partials 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head>Dynamo!
+
+Found!
+"
+`;
+
+exports[`Html Webpack Plugin Check Partials: Inline Partials 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head>		My Content
+		My Content
+
+<div class=\\"nav\\">
+			My Nav
+</div>
+<div class=\\"content\\">
+			My Content
+</div>
+"
+`;
+
+exports[`Html Webpack Plugin Check Partials: Partial Blocks 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head>	Failover content
+
+Site Content 	My Content
+
+
+		Nils
+		Yehuda
+		Carl
+"
+`;
+
+exports[`Html Webpack Plugin Check Partials: Partial Contexts 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head>Interesting!
+"
+`;
+
+exports[`Html Webpack Plugin Check Partials: Partial Parameters 1`] = `
+"<head><script defer src=\\"../main.js\\"></script></head>The result is 123
+
+	Hello, Nils Knappmeier
+	Hello, Yehuda Katz
+"
+`;
+
+exports[`Loader Check Block Helpers: Basic Block Variation 1`] = `
+"<div class=\\"entry\\">
+	<h1>First Post</h1>
+	<div class=\\"body\\">
+		<div class=\\"mybold\\">BODY</div>
+	</div>
+</div>
+"
+`;
+
+exports[`Loader Check Block Helpers: Basic Blocks 1`] = `
+"<div class=\\"entry\\">
+	<h1>First Post</h1>
+	<div class=\\"body\\">
+		BODY
+	</div>
+</div>
+
+NOOP
+"
+`;
+
+exports[`Loader Check Block Helpers: Block Parameters 1`] = `
+"	Id: 0 Name: Name1
+	Id: 1 Name: Name2
+	Id: 2 Name: Name3
+
+		User Id: 0 Book Id: 0
+		User Id: 0 Book Id: 1
+		User Id: 0 Book Id: 2
+		User Id: 1 Book Id: 0
+		User Id: 1 Book Id: 1
+		User Id: 1 Book Id: 2
+		User Id: 2 Book Id: 0
+		User Id: 2 Book Id: 1
+		User Id: 2 Book Id: 2
+"
+`;
+
+exports[`Loader Check Block Helpers: Conditionals 1`] = `
+"	<img src=\\"star.gif\\" alt=\\"Active\\">
+
+	<img src=\\"cry.gif\\" alt=\\"Inactive\\">
+
+	<img src=\\"cry.gif\\" alt=\\"Inactive\\">
+"
+`;
+
+exports[`Loader Check Block Helpers: Hash Arguments 1`] = `
+"<ul class=\\"top\\" id=\\"nav-bar\\"><li>	<a href=\\"foo\\">bar</a>
+</li>
+<li>	<a href=\\"bar\\"></a>
+</li></ul>
+<ul><li>	0. Title1
+</li><li>	1. Title2
+</li><li>	2. Title3
+</li></ul>"
+`;
+
+exports[`Loader Check Block Helpers: Raw Blocks 1`] = `
+"{{BAR}}
+
+{{bar}}
+"
+`;
+
+exports[`Loader Check Block Helpers: Simple Iterators 1`] = `
+"<div class=\\"entry\\">
+	<h1>First Post</h1>
+		<div class=\\"intro\\">Before the jump</div>
+		<div class=\\"body\\">After the jump</div>
+</div>
+
+<div class=\\"comments\\">
+		<div class=\\"comment\\">
+			<h2>Before the jump</h2>
+			After the jump
+		</div>
+		<div class=\\"comment\\">
+			<h2>Before the jump</h2>
+			After the jump
+		</div>
+</div>
+
+<ul><li>	<a href=\\"https://www.yehudakatz.com\\">Katz Got Your Tongue</a>
+</li><li>	<a href=\\"https://www.sproutcore.com/block\\">SproutCore Blog</a>
+</li></ul>"
+`;
+
+exports[`Loader Check Block Helpers: The with helper 1`] = `
+"<div class=\\"entry\\">
+	<h1>First Post</h1>
+		<div class=\\"intro\\">Before the jump</div>
+		<div class=\\"body\\">After the jump</div>
+</div>
+"
+`;
+
+exports[`Loader Check Built-in Helpers: each 1`] = `
+"<!doctype html>
+<html lang=\\"en\\">
+<head>
+	<meta charset=\\"UTF-8\\">
+	<meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1\\">
+	<title>03Each</title>
+</head>
+<body>
+<ul class=\\"people_list\\">
+		<li>Yehuda Katz</li>
+		<li>Alan Johnson</li>
+		<li>Charles Jolley</li>
+</ul>
+
+	<p class=\\"empty\\">No content</p>
+
+ 0: item 1  1: item 2  2: item 3 
+
+ key1: value 1  key2: value 2 
+</body>
+</html>"
+`;
+
+exports[`Loader Check Built-in Helpers: if 1`] = `
+"<!doctype html>
+<html lang=\\"en\\">
+<head>
+	<meta charset=\\"UTF-8\\">
+	<meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1\\">
+	<title>01If</title>
+</head>
+<body>
+<div class=\\"entry\\">
+		<h1>Yehuda Katz</h1>
+</div>
+
+<div class=\\"entry\\">
+		<h1>Unknown Author</h1>
+</div>
+
+true
+false
+</body>
+</html>"
+`;
+
+exports[`Loader Check Built-in Helpers: lookup 1`] = `
+"<!doctype html>
+<html lang=\\"en\\">
+<head>
+	<meta charset=\\"UTF-8\\">
+	<meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1\\">
+	<title>05Lookup</title>
+</head>
+<body>
+	Yehuda Katz lives in 
+	Alan Johnson lives in 
+	Charles Jolley lives in 
+
+	Nils lives in 	Nils lives in </body>
+</html>"
+`;
+
+exports[`Loader Check Built-in Helpers: unless 1`] = `
+"<!doctype html>
+<html lang=\\"en\\">
+<head>
+	<meta charset=\\"UTF-8\\">
+	<meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1\\">
+	<title>02Unless</title>
+</head>
+<body>
+<div class=\\"entry\\">
+		<h3 class=\\"warning\\">WARNING: This entry does not have a license!</h3>
+</div>
+</body>
+</html>"
+`;
+
+exports[`Loader Check Built-in Helpers: with 1`] = `
+"<!doctype html>
+<html lang=\\"en\\">
+<head>
+	<meta charset=\\"UTF-8\\">
+	<meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1\\">
+	<title>04With</title>
+</head>
+<body>
+	Yehuda Katz
+
+		San Francisco: 37.73, -122.44
+
+	No city found
+</body>
+</html>"
+`;
+
+exports[`Loader Check Expressions: Basic Usage 1`] = `
+"<p>Yehuda Katz</p>
+"
+`;
+
+exports[`Loader Check Expressions: Changing the context 1`] = `
+"	Hello Nils
+	Hello Yehuda
+"
+`;
+
+exports[`Loader Check Expressions: Disambiguating helpers calls and property lookup 1`] = `
+"helper: Nils
+data: Yehuda or Yehuda or Yehuda
+"
+`;
+
+exports[`Loader Check Expressions: Escaping Handlebars expressions 1`] = `
+"{{escaped}}
+"
+`;
+
+exports[`Loader Check Expressions: HTML-escaping 1`] = `
+"raw: & < > \\" ' \` =
+html-escaped: &amp; &lt; &gt; &quot; &#x27; &#x60; &#x3D;
+"
+`;
+
+exports[`Loader Check Expressions: Helpers 1`] = `
+"Yehuda KATZ
+"
+`;
+
+exports[`Loader Check Expressions: Helpers with Hash arguments 1`] = `
+"<a class=\\"person\\" href=\\"https://yehudakatz.com/\\">See Website</a>
+"
+`;
+
+exports[`Loader Check Expressions: Helpers with Multiple Parameters 1`] = `
+"<a href='https://yehudakatz.com/'>See Website</a>
+
+<a href='https://yehudakatz.com/'>See Website</a>
+"
+`;
+
+exports[`Loader Check Expressions: Literal arguments 1`] = `
+"** 10% Search 
+****************** 90% Upload stalled
+******************** 100% Finish 
+"
+`;
+
+exports[`Loader Check Expressions: Literal segments 1`] = `
+"correct: array.[0].item: item1
+
+correct: array.[0].[item-class]: class1
+
+correct: ./[true]: yes
+"
+`;
+
+exports[`Loader Check Expressions: Path expressions 1`] = `
+"Yehuda Katz
+
+Yehuda Katz
+"
+`;
+
+exports[`Loader Check Expressions: Prevent HTML-escaping of helper return values 1`] = `
+"<b>Isn&#x27;t this great?</b>
+"
+`;
+
+exports[`Loader Check Expressions: Subexpressions 1`] = `
+"abc def
+"
+`;
+
+exports[`Loader Check Expressions: Whitespace Control 1`] = `
+"<a href=\\"foo\\">bar</a><a href=\\"bar\\">Empty</a>
+	<a href=\\"foo\\">
+			bar
+	</a>	<a href=\\"bar\\">
+			Empty
+	</a>"
+`;
+
+exports[`Loader Check Introduction: Block Helpers 1`] = `
+"<ul>
+<li>Yehuda Katz</li>
+<li>Carl Lerche</li>
+<li>Alan Johnson</li>
+</ul>
+"
+`;
+
+exports[`Loader Check Introduction: Custom Helpers 1`] = `
+"Yehuda KATZ
+
+	Nils Knappmeier
+	Yehuda Katz
+"
+`;
+
+exports[`Loader Check Introduction: Evaluation context 1`] = `
+"	Yehuda Katz
+
+<ul class=\\"people_list\\">
+		<li>Yehuda Katz</li>
+		<li>Alan Johnson</li>
+		<li>Charles Jolley</li>
+</ul>
+"
+`;
+
+exports[`Loader Check Introduction: HTML Escaping 1`] = `
+"raw: & < > \\" ' \` =
+html-escaped: &amp; &lt; &gt; &quot; &#x27; &#x60; &#x3D;
+
+<b>Isn&#x27;t this great?</b>
+"
+`;
+
+exports[`Loader Check Introduction: Nested input objects 1`] = `
+"Yehuda Katz
+"
+`;
+
+exports[`Loader Check Introduction: Partials 1`] = `
+"	Nils is 20 years old.
+	Teddy is 10 years old.
+	Nelson is 40 years old.
+"
+`;
+
+exports[`Loader Check Introduction: Simple Expression 1`] = `
+"<p>Yehuda Katz</p>
+"
+`;
+
+exports[`Loader Check Introduction: Template comments 1`] = `
+"<!-- This comment will show up as HTML-comment -->
+"
+`;
+
+exports[`Loader Check Partials: Basic Partials 1`] = `
+"Hello
+"
+`;
+
+exports[`Loader Check Partials: Dynamic Partials 1`] = `
+"Dynamo!
+
+Found!
+"
+`;
+
+exports[`Loader Check Partials: Inline Partials 1`] = `
+"		My Content
+		My Content
+
+<div class=\\"nav\\">
+			My Nav
+</div>
+<div class=\\"content\\">
+			My Content
+</div>
+"
+`;
+
+exports[`Loader Check Partials: Partial Blocks 1`] = `
+"	Failover content
+
+Site Content 	My Content
+
+
+		Nils
+		Yehuda
+		Carl
+"
+`;
+
+exports[`Loader Check Partials: Partial Contexts 1`] = `
+"Interesting!
+"
+`;
+
+exports[`Loader Check Partials: Partial Parameters 1`] = `
+"The result is 123
+
+	Hello, Nils Knappmeier
+	Hello, Yehuda Katz
+"
+`;
+
+exports[`Simple loader Check Main JS 1`] = `
+"/******/ (() => { // webpackBootstrap
+/******/ 	var __webpack_modules__ = ([
+/* 0 */,
+/* 1 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+\\"use strict\\";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   \\"default\\": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+// Module
+var code = \\"<!doctype html>\\\\n<html lang=\\\\\\"en\\\\\\">\\\\n<head>\\\\n\\\\t<meta charset=\\\\\\"UTF-8\\\\\\">\\\\n\\\\t<meta name=\\\\\\"viewport\\\\\\" content=\\\\\\"width=device-width, initial-scale=1\\\\\\">\\\\n\\\\t<title>Index</title>\\\\n</head>\\\\n<body>\\\\n</body>\\\\n</html>\\";
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);
+
+/***/ })
+/******/ 	]);
+/************************************************************************/
+/******/ 	// The module cache
+/******/ 	var __webpack_module_cache__ = {};
+/******/ 	
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/ 		// Check if module is in cache
+/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
+/******/ 		if (cachedModule !== undefined) {
+/******/ 			return cachedModule.exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = __webpack_module_cache__[moduleId] = {
+/******/ 			// no module.id needed
+/******/ 			// no module.loaded needed
+/******/ 			exports: {}
+/******/ 		};
+/******/ 	
+/******/ 		// Execute the module function
+/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
+/******/ 	
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/ 	
+/************************************************************************/
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	(() => {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__webpack_require__.d = (exports, definition) => {
+/******/ 			for(var key in definition) {
+/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
+/******/ 	(() => {
+/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/make namespace object */
+/******/ 	(() => {
+/******/ 		// define __esModule on exports
+/******/ 		__webpack_require__.r = (exports) => {
+/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 			}
+/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/************************************************************************/
+var __webpack_exports__ = {};
+// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
+(() => {
+const pageHtml = __webpack_require__( 1 );
+
+// eslint-disable-next-line no-console
+console.info( 'pageHtml', pageHtml );
+
+})();
+
+/******/ })()
+;"
+`;
+
+exports[`With Assets Resources Check Index 1`] = `
+"<!doctype html>
+<html lang=\\"en\\">
+<head>
+	<meta charset=\\"UTF-8\\">
+	<meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1\\">
+	<title>Index</title>
+</head>
+<body>
+</body>
+</html>"
+`;
+
+exports[`With Assets Resources Check Sub Page 1`] = `
+"<!doctype html>
+<html lang=\\"en\\">
+<head>
+	<meta charset=\\"UTF-8\\">
+	<meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1\\">
+	<title>SomePage</title>
+</head>
+<body>
+</body>
+</html>"
+`;
+
+exports[`With HTML Webpack plugin Check Index 1`] = `
+"<!doctype html>
+<html lang=\\"en\\">
+<head>
+	<meta charset=\\"UTF-8\\">
+	<meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1\\">
+	<title>Index</title>
+<script defer src=\\"main.js\\"></script></head>
+<body>
+</body>
+</html>"
+`;
+
+exports[`With HTML Webpack plugin Check Sub Page 1`] = `
+"<!doctype html>
+<html lang=\\"en\\">
+<head>
+	<meta charset=\\"UTF-8\\">
+	<meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1\\">
+	<title>SomePage</title>
+<script defer src=\\"../main.js\\"></script></head>
+<body>
+</body>
+</html>"
+`;

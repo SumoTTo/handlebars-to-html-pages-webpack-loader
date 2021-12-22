@@ -1,0 +1,11 @@
+---
+layout: blank
+---
+
+{{#listArguments nav id="nav-bar" class="top"}}
+	<a href="{{url}}">{{title}}</a>
+{{/listArguments}}
+
+{{#listIndex arrayIndex}}
+	{{@index}}. {{title}}
+{{/listIndex}}

@@ -1,0 +1,23 @@
+---
+layout: blank
+---
+
+{{#each nav ~}}
+	<a href="{{url}}">
+		{{~#if test}}
+			{{~title}}
+		{{~^~}}
+			Empty
+		{{~/if~}}
+	</a>
+{{~/each}}
+
+{{#each nav}}
+	<a href="{{url}}">
+		{{#if test}}
+			{{title}}
+		{{^}}
+			Empty
+		{{/if}}
+	</a>
+{{~/each}}

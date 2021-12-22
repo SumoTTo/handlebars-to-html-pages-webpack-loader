@@ -1,0 +1,17 @@
+---
+layout: blank
+---
+
+{{#>myPartialBlock}}
+	Failover content
+{{/myPartialBlock}}
+
+{{#>layout}}
+	My Content
+{{/layout}}
+
+{{#each peopleEach as |person|}}
+	{{#> childEntry}}
+		{{person.firstname}}
+	{{/childEntry}}
+{{/each}}

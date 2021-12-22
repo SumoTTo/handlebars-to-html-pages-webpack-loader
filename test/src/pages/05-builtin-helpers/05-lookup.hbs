@@ -1,0 +1,9 @@
+{{#each builtin.people}}
+	{{.}} lives in {{lookup ../cities @index}}
+{{/each}}
+
+{{#each builtin.persons as | person |}}
+	{{name}} lives in {{#with (lookup ../cities2 [resident-in])~}}
+		{{name}} ({{country}})
+	{{/with}}
+{{/each}}

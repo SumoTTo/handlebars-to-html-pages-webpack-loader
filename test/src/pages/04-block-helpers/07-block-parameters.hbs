@@ -1,0 +1,13 @@
+---
+layout: blank
+---
+
+{{#each users as |user userId|}}
+	Id: {{userId}} Name: {{user.name}}
+{{/each}}
+
+{{#each users as |user userId|}}
+	{{#each user.book as |book bookId|}}
+		User Id: {{userId}} Book Id: {{bookId}}
+	{{/each}}
+{{/each}}

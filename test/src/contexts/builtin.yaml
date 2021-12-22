@@ -1,0 +1,55 @@
+author: true
+author2: false
+firstName: "Yehuda"
+lastName: "Katz"
+value1: { }
+people: [
+        "Yehuda Katz",
+        "Alan Johnson",
+        "Charles Jolley",
+]
+people2: [ "Nils", "Yehuda" ]
+cities: [
+        "Darmstadt",
+        "San Francisco",
+]
+person: {
+    firstname: "Yehuda",
+    lastname: "Katz",
+}
+persons: [
+    {
+        name: "Nils",
+        "resident-in": "darmstadt",
+    },
+    {
+        name: "Yehuda",
+        "resident-in": "san-francisco",
+    },
+]
+cities2: {
+    darmstadt: {
+        name: "Darmstadt",
+        country: "Germany",
+    },
+    "san-francisco": {
+        name: "San Francisco",
+        country: "USA",
+    },
+}
+city: {
+    name: "San Francisco",
+    summary: "San Francisco is the <b>cultural center</b> of <b>Northern California</b>",
+    location: {
+        north: "37.73,",
+        east: -122.44,
+    },
+    population: 883305,
+}
+array:
+    - item 1
+    - item 2
+    - item 3
+object:
+    key1: value 1
+    key2: value 2

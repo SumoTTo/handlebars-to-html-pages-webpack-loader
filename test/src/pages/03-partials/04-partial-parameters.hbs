@@ -1,0 +1,9 @@
+---
+layout: blank
+---
+
+{{>myPartialParameters parameter=favoriteNumber}}
+
+{{#each peopleParentContext}}
+	{{>myPartialParentContext prefix=../prefix firstname=firstname lastname=lastname}}
+{{/each}}

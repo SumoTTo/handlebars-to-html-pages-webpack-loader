@@ -1,0 +1,134 @@
+firstname: "Yehuda"
+lastname: Katz
+persone:
+    firstname: Yehuda
+    lastname: "Katz"
+people:
+    - Yehuda Katz
+    - "Alan Johnson"
+    - Charles Jolley
+specialChars: "& < > \" ' ` ="
+text: "Isn't this great?"
+persons: [
+    { name: "Nils", age: 20 },
+    { name: "Teddy", age: 10 },
+    { name: "Nelson", age: 40 },
+]
+peopleList: [
+    {
+        firstname: "Yehuda",
+        lastname: "Katz",
+    },
+    {
+        firstname: "Carl",
+        lastname: "Lerche",
+    },
+    {
+        firstname: "Alan",
+        lastname: "Johnson",
+    }
+]
+prefix: 'Hello'
+array:
+    -   item: "item1"
+        "item-class": "class1"
+        title: Title
+arrayIndex:
+    -   item: "item1"
+        "item-class": "class1"
+        title: Title1
+    -   item: "item2"
+        "item-class": "class2"
+        title: Title2
+    -   item: "item3"
+        "item-class": "class3"
+        title: Title3
+
+true: "yes"
+peopleLink: {
+    firstname: "Yehuda",
+    lastname: "Katz",
+    url: "https://yehudakatz.com/",
+    text: "See Website",
+}
+person:
+    firstname: "Yehuda"
+    lastname: "Katz"
+    url: "https://yehudakatz.com/"
+nav: [ { url: "foo", test: true, title: "bar" }, { url: "bar" } ]
+myOtherContext: {
+    information: "Interesting!",
+}
+myVariable: "lookupMyPartial"
+favoriteNumber: 123
+peopleEach: [
+    { firstname: "Nils" },
+    { firstname: "Yehuda" },
+    { firstname: "Carl" },
+]
+peopleInline: [
+    { firstname: "Nils" },
+    { firstname: "Yehuda" },
+]
+peoplePerson: [
+    {
+        firstname: "Nils",
+        lastname: "Knappmeier",
+    },
+    {
+        firstname: "Yehuda",
+        lastname: "Katz",
+    }
+]
+body: BODY
+noop: NOOP
+title: "First Post"
+story: {
+    intro: "Before the jump",
+    body: "After the jump"
+}
+comments: [
+    {
+        subject: "Before the jump",
+        body: "After the jump"
+    },
+    {
+        subject: "Before the jump",
+        body: "After the jump"
+    }
+]
+url: "https://yehudakatz.com/"
+name: "Yehuda"
+peopleParentContext: [
+    {
+        firstname: "Nils",
+        lastname: "Knappmeier",
+    },
+    {
+        firstname: "Yehuda",
+        lastname: "Katz",
+    },
+]
+navEach: [
+    { url: "https://www.yehudakatz.com", title: "Katz Got Your Tongue" },
+    { url: "https://www.sproutcore.com/block", title: "SproutCore Blog" }
+]
+isActive: true
+isActive2: false
+isInactive: true
+users:
+    -   name: Name1
+        book:
+            - Book1-1
+            - Book1-2
+            - Book1-3
+    -   name: Name2
+        book:
+            - Book2-1
+            - Book2-2
+            - Book2-3
+    -   name: Name3
+        book:
+            - Book3-1
+            - Book3-2
+            - Book3-3

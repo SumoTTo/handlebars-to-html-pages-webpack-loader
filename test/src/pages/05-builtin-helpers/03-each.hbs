@@ -1,0 +1,15 @@
+<ul class="people_list">
+	{{#each builtin.people}}
+		<li>{{this}}</li>
+	{{/each}}
+</ul>
+
+{{#each builtin.paragraphs}}
+	<p>{{this}}</p>
+{{else}}
+	<p class="empty">No content</p>
+{{/each}}
+
+{{#each builtin.array}} {{@index}}: {{this}} {{/each}}
+
+{{#each builtin.object}} {{@key}}: {{this}} {{/each}}

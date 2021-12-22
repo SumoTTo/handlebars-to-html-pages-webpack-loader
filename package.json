@@ -1,0 +1,73 @@
+{
+	"name": "@sumotto/handlebars-to-html-pages-webpack-loader",
+	"version": "0.0.0",
+	"description": "Webpack loader for create HTML pages from Handlebars templates.",
+	"keywords": [
+		"handlebars",
+		"html",
+		"pages",
+		"webpack",
+		"loader"
+	],
+	"homepage": "https://github.com/SumoTTo/handlebars-to-html-pages-webpack-loader#readme",
+	"bugs": {
+		"url": "https://github.com/SumoTTo/handlebars-to-html-pages-webpack-loader/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/SumoTTo/handlebars-to-html-pages-webpack-loader.git"
+	},
+	"funding": "https://ko-fi.com/SumoTTo",
+	"license": "MIT",
+	"author": {
+		"name": "Sigalin Kirill",
+		"email": "sumotto@yandex.ru",
+		"url": "https://sumotto.ru"
+	},
+	"main": "dist/index.js",
+	"files": [
+		"dist/"
+	],
+	"scripts": {
+		"lint": "eslint {scripts,src,test}/**/*.js",
+		"fix": "eslint {scripts,src,test}/**/*.js --fix",
+		"test": "jest",
+		"build": "node build",
+		"prepare": "husky install",
+		"prepublishOnly": "npm run build",
+		"releaseTests": "npm run lint && npm test",
+		"releasePreview": "cross-env HUSKY=0 np --preview --test-script=releaseTests",
+		"release": "cross-env HUSKY=0 np --test-script=releaseTests"
+	},
+	"dependencies": {
+		"front-matter": "*",
+		"glob": "*",
+		"handlebars": "*",
+		"schema-utils": "*"
+	},
+	"devDependencies": {
+		"@babel/core": "^7",
+		"@babel/eslint-parser": "^7",
+		"@babel/plugin-proposal-class-properties": "^7",
+		"@babel/plugin-proposal-private-methods": "^7",
+		"@babel/preset-env": "^7",
+		"@babel/register": "^7",
+		"@sumotto/multiple-html-pages-webpack-plugin": "^1",
+		"@wordpress/eslint-plugin": "latest",
+		"cross-env": "latest",
+		"eslint": "latest",
+		"html-loader": "^3",
+		"html-webpack-plugin": "^5",
+		"husky": "latest",
+		"jest": "latest",
+		"js-yaml": "latest",
+		"np": "latest",
+		"terser": "latest"
+	},
+	"peerDependencies": {
+		"webpack": ">=5"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}

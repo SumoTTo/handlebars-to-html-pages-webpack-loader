@@ -1,0 +1,19 @@
+---
+layout: blank
+---
+
+{{#*inline "myInlinePartial"}}
+	My Content
+{{/inline}}
+{{#each peopleInline}}
+	{{>myInlinePartial}}
+{{/each}}
+
+{{#>layoutInline}}
+	{{#*inline "nav"}}
+		My Nav
+	{{/inline}}
+	{{#*inline "content"}}
+		My Content
+	{{/inline}}
+{{/layoutInline}}
