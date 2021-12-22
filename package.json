@@ -1,6 +1,6 @@
 {
 	"name": "@sumotto/handlebars-to-html-pages-webpack-loader",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Webpack loader for create HTML pages from Handlebars templates.",
 	"keywords": [
 		"handlebars",
