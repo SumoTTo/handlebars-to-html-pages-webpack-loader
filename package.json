@@ -43,6 +43,7 @@
 		"front-matter": "*",
 		"glob": "*",
 		"handlebars": "*",
+		"js-yaml": "*",
 		"schema-utils": "*"
 	},
 	"devDependencies": {
@@ -60,7 +61,6 @@
 		"html-webpack-plugin": "^5",
 		"husky": "latest",
 		"jest": "latest",
-		"js-yaml": "latest",
 		"np": "latest",
 		"terser": "latest"
 	},
